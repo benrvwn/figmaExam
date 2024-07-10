@@ -7,6 +7,7 @@ import Header from './components/Header/Header'
 import Welcome from './components/Welcome/Welcome'
 import Top from './components/Top/Top'
 import Latest from './components/Latest/Latest'
+import Upcoming from './components/Upcoming/Upcoming'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Welcome />
             <Top />
             <Latest />
+            <Upcoming />
         </>
     ) 
 }
