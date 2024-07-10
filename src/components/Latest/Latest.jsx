@@ -1,33 +1,34 @@
-import './Latest.scss';
+import './Latest.scss'
+import Video from '../Video/Video'
 import video1 from '../../assets/video1.png'
 import video2 from '../../assets/video2.png'
-import unlockedIcon from '../../assets/unlocked.png';
-import Video from '../Video/Video';
 
-function Latest(){
+function Upcoming(){
     return (
         <>
             <div className='latest-container'>
                 <div className='top-content'>
                     <h1>
-                        <span>TOP</span>
+                        <span>LATEST</span>
                         VIDEOS
                     </h1>
                     <span className='line'></span>
                 </div>
-                <div className='latest-content'>
-                    <Video image={video1} />
-                    <Video image={video2} />
+                <div className='videos-container'>
+                    <Video image={video2}/>
+                    <Video image={video1}/>
+                    <Video image={video1}/>
+                    <Video image={video2}/>
+                    <Video image={video2}/>
+                    <Video image={video1}/>
                 </div>
-                <div className='get-access'>
-                    <a href="#" className='get-access'>
-                        <img src={unlockedIcon} alt="" />
-                        GET INSTANT ACCESS
-                    </a>
+
+                <div className='view-container'>
+                    <a href="#">VIEW ALL VIDEOS</a>
                 </div>
             </div>
         </>
     )
 }
 
-export default Latest;
+export default Upcoming;

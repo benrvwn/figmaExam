@@ -1,0 +1,24 @@
+.main-page{
+    height:100vh;
+    background-image: url('../../assets/mainPage.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+    a{
+        background: linear-gradient(360deg, #FFAC5C 0%, #FFC653 48.01%, #FFFF82 51.01%, #FFFFBB 100%);
+        font-size:48px;
+        padding:0.5rem 4.3rem;
+        border-radius: 1.5rem;
+        margin-bottom: 80px;
+        img{
+            margin-right:1rem;
+        }
+    }
+}
