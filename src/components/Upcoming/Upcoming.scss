@@ -31,4 +31,23 @@
             background: red;
         }
     }
+    
+    .videos-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .view-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:4rem;
+
+        a{
+            font-size: 30px;
+            font-weight: 400;
+            border:3px solid red;
+            padding:0.5rem 4rem;
+        }
+    }
 }

@@ -1,8 +1,8 @@
 import './Latest.scss';
 import video1 from '../../assets/video1.png'
 import video2 from '../../assets/video2.png'
-import ytIcon from '../../assets/goldYtIcon.png'
 import unlockedIcon from '../../assets/unlocked.png';
+import Video from '../Video/Video';
 
 function Latest(){
     return (
@@ -27,26 +27,6 @@ function Latest(){
                 </div>
             </div>
         </>
-    )
-}
-
-
-function Video(props){
-    return (
-        <div className='latest-video'>
-            <div className='cover-container'>
-                <img src={props.image} alt="video 1" className='video-cover' />
-            </div>
-            <div className='video-details'>
-                <div>
-                    <h2>The Red Wedding</h2>
-                    <span>DANAERYS • JON SNOW • CERSEI</span>
-                </div>
-                <span>
-                    <img src={ytIcon} alt="video icon" />
-                </span>
-            </div>
-        </div>
     )
 }
 
