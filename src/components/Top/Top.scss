@@ -1,0 +1,40 @@
+.top-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    background-color: black;
+    padding:1% 10% 3% 10%;
+    box-shadow: 0px -39px 78px 50px rgba(0,0,0,1);
+
+    h3{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: center;
+        color: #FFBC48;
+        transform: translateY(30px)
+
+    }
+    h1{
+        font-family: Poppins;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 120px;
+        text-align: center;
+
+        span{
+            color:#e60000;
+        }
+    }
+    p{
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 50px;
+        text-align: center;
+
+    }
+}

@@ -1,0 +1,103 @@
+.latest-container{
+    background: #111111;
+    font-family: Poppins;
+    color: #FFFFFF;
+    padding:2%;
+    display:flex;
+    flex-direction: column;
+
+    .top-content{
+        display: flex;
+        align-items: center;
+
+        h1{
+            font-size: 60px;
+            font-weight: 300;
+            line-height: 69px;
+            margin-right: 2rem;
+    
+            span{
+                font-weight: 900;
+                text-align: left;
+                margin-right: 1rem;
+            }
+        }
+
+        span.line{
+            flex:1;
+            height: 20px;
+            top: 66px;
+            left: 438px;
+            background: #FFBC48;
+        }
+    }
+
+    .latest-content{
+        display: flex;
+
+        .latest-video{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex:1;
+            margin:2%;
+
+            .cover-container{
+                width:100%;
+                border-bottom:10px solid red;
+                max-height: 499px;
+                overflow: hidden;
+
+                img{
+                    width:100%;
+                }
+            }
+
+            .video-details{
+                display:flex;
+                align-items: center;
+                width:100%;
+                margin-top:1rem;
+
+                div{
+                    flex:1;
+
+                    h2{
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
+                    
+                    span{
+                        font-size: 24px;
+                        font-weight: 400;
+                        color:#FFBC48;
+                    }
+                }
+            }
+        }
+    }
+
+    div.get-access{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:3rem 0;
+
+        a{
+            background: linear-gradient(360deg, #FFAC5C 0%, #FFC653 48.01%, #FFFF82 51.01%, #FFFFBB 100%);
+            font-size:48px;
+            padding:0.5rem 4.3rem;
+            border-radius: 1.5rem;
+            font-weight: 900;
+            font-style: normal;
+            color:#111111;
+    
+            img{
+                margin-right:1rem;
+            }
+        }
+    }
+    
+
+}
