@@ -7,4 +7,3 @@
 3. After installing the npm, run the application by running the ff. on the terminal
    `npm run dev`
 
-Note: I was only able to complete half of the design in the span of 3 hours due to technical issues with my desktop. However, I anticipate finishing the remaining portion more quickly as I have already created the necessary components.
