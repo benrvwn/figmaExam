@@ -8,6 +8,7 @@ import Welcome from './components/Welcome/Welcome'
 import Top from './components/Top/Top'
 import Latest from './components/Latest/Latest'
 import Upcoming from './components/Upcoming/Upcoming'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Top />
             <Latest />
             <Upcoming />
+            <Footer />
         </>
     ) 
 }
